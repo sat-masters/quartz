@@ -482,6 +482,7 @@ export async function handleSync(argv) {
   const contentFolder = path.join(cwd, argv.directory)
   console.log(chalk.bgGreen.black(`\n Quartz v${version} \n`))
   console.log("Backing up your content")
+  console.log("cwd: " + cwd)
 
   if (argv.commit) {
     const contentStat = await fs.promises.lstat(contentFolder)
