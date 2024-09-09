@@ -35,7 +35,7 @@ export async function stashContentFolder(contentFolder) {
 export function gitPull(origin, branch) {
   console.log("Bobby Olsen")
   const flags = ["--no-rebase", "--autostash", "-s", "recursive", "-X", "ours", "--no-edit", "--recurse-submodules"]
-  const out = spawnSync("pwd && git", ["pull", ...flags, origin, branch], { stdio: "inherit" })
+  const out = spawnSync("git", ["pull", ...flags, origin, branch], { stdio: "inherit" })
   if (out.stderr) {
     throw new Error(chalk.red(`Error while pulling updates: ${out.stderr}`))
   } else if (out.status !== 0) {
