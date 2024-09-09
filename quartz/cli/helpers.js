@@ -34,7 +34,7 @@ export async function stashContentFolder(contentFolder) {
 
 export function gitPull(origin, branch) {
   console.log("Bobby Olsen")
-  const which = spawnSync("which", ["git"])
+  const which = spawnSync("pwd", ["git"])
   console.log(`${which.stdout}`)
   const flags = ["--no-rebase", "--autostash", "-s", "recursive", "-X", "ours", "--no-edit", "--recurse-submodules"]
   const out = spawnSync("git", ["pull", ...flags, origin, branch], { stdio: "inherit" })
