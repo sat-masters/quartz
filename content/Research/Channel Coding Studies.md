@@ -1,3 +1,0 @@
-- [Channel Coding Toward 6G: Technical Overview and Outlook (2024)](https://ieeexplore-ieee-org.zorac.aub.aau.dk/abstract/document/10502324)
-	- Channel Coding Historie 1G-5G og potentielle 6G improvements
-	- 
