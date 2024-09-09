@@ -1,0 +1,15 @@
+- SpaceX
+	- Mega Constellation
+	- Plug and Plaser
+- ESA
+	- [OPS-SAT | Volt](https://opssat.esa.int/volt/)
+		- [Craft Prospect](https://www.craftprospect.com/)
+		- Laser platform
+		- David Evans
+	- [European Data Relay Satellite System (EDRS)](https://connectivity.esa.int/european-data-relay-satellite-system-edrs-overview)
+		- GEO Relay System
+- NASA
+	- [Communications Services Project - NASA](https://www.nasa.gov/directorates/somd/space-communications-navigation-program/communications-services-project/)
+	- 
+- [TESAT](https://www.tesat.de/products)
+	- Satellite Laser Terminals

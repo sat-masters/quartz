@@ -1,0 +1,1 @@
+[Ad-hoc satellite networks](https://ieeexplore-ieee-org.zorac.aub.aau.dk/stamp/stamp.jsp?tp=&arnumber=9527597) 

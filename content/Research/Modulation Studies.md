@@ -1,0 +1,2 @@
+- [Waveform design solutions for EHF broadband satellite communications (2015)](https://ieeexplore-ieee-org.zorac.aub.aau.dk/abstract/document/7060477)
+	- [[Impulse-Radio Ultra-Wideband]] for satellite communication. Discusses various Waveform and modulation schemes

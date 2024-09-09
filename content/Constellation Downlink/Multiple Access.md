@@ -1,0 +1,3 @@
+- OFDM
+- When high doppler we get into [Orthogonal Time Frequency Space (OTFS)](https://en.wikipedia.org/wiki/Orthogonal_Time_Frequency_Space)
+- 

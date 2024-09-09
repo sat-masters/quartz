@@ -1,0 +1,5 @@
+- [Non-Terrestrial Networks in the 6G Era: Challenges and Opportunities (2020)](https://ieeexplore-ieee-org.zorac.aub.aau.dk/abstract/document/9275613)
+	- Grundlæggende udfordringer og teknologier ved NTN
+- [5G from Space: An Overview of 3GPP Non-Terrestrial Networks (2022)](https://ieeexplore.ieee.org/abstract/document/9579443)
+	- Fokuserer på 3GPP standard inden for NTN
+- 

@@ -1,0 +1,22 @@
+- Link Establishment
+	- Find Access Satellites
+	- "Hardcoded" orbits
+	- Handover
+- Physical Link Type
+	- Beamforming/No beamforming
+	- [[How does laser work]]
+- [[Multiple Access]]
+- Performance degradation
+	- Terrestrial client quality of service  
+- Channel estimation
+	- Deviation from terrestrial client
+	- Lifetime of Link
+	- Channel coherence time
+- Client positioning
+	- Lower / Same / Higher orbit
+	- Following / Orthogonal / Opposing direction
+- 5G / current protocol
+	- What can be reused
+- Performance Analysis
+	- Vs Legacy Downlink / Uplink
+- IP ?
