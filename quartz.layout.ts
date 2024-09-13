@@ -9,10 +9,12 @@ export const sharedPageComponents: SharedLayout = {
     Component.Comments({
       provider: "giscus",
       options: {
-        repo: "sat-masters/quartz",
-        repoId: "R_kgDOMu5CyA",
+        repo: "sat-masters/docs",
+        repoId: "R_kgDOMWIkIQ",
         category: "Announcements",
-        categoryId: "DIC_kwDOMu5CyM4CicKU",
+        categoryId: "DIC_kwDOMWIkIc4CicO1",
+        mapping: "pathname",
+        reactionsEnabled: false,
       }
     }),
   ],
