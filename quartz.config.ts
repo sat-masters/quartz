@@ -11,13 +11,11 @@ const config: QuartzConfig = {
     pageTitle: "Mega Constellation Downlink",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    baseUrl: "masters.abber.dk",
+    ignorePatterns: ["private", "templates", ".obsidian",".github",".git"],
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
