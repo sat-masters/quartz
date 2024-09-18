@@ -1,6 +1,8 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+const explorer_omit = new Set(["Research"])
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -38,7 +40,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer(
+      {
+        filterFn: (node) => {
+          return !explorer_omit.has(node.name.toLowerCase())
+        },
+      }
+    )),
   ],
   right: [
     Component.Graph(),
@@ -55,7 +63,13 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer(
+      {
+        filterFn: (node) => {
+          return !explorer_omit.has(node.name.toLowerCase())
+        },
+      }
+    )),
   ],
   right: [],
 }
