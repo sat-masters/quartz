@@ -1,7 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-const explorer_omit = new Set(["Research"])
+const explorer_omit = new Set(["research"])
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
