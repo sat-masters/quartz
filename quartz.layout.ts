@@ -43,7 +43,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer(
       {
         filterFn: (node) => {
-          return !explorer_omit.has(node.name.toLowerCase())
+          return node.name.toLowerCase().at(0) !== "_"
         },
       }
     )),
@@ -66,7 +66,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer(
       {
         filterFn: (node) => {
-          return !explorer_omit.has(node.name.toLowerCase())
+          return node.name.toLowerCase().at(0) !== "_"
         },
       }
     )),
