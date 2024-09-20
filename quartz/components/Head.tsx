@@ -3,6 +3,7 @@ import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { hltrColor, hltrStyle } from "./mycss"
 
 export default (() => {
   const Head: QuartzComponent = ({ cfg, fileData, externalResources }: QuartzComponentProps) => {
@@ -38,6 +39,8 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        <style type="text/css">{hltrColor}</style>
+        <style type="text/css" id="highlightr-styles">{hltrStyle}</style>
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}
@@ -47,6 +50,5 @@ export default (() => {
       </head>
     )
   }
-
   return Head
 }) satisfies QuartzComponentConstructor
