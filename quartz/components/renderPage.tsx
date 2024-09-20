@@ -216,7 +216,7 @@ export function renderPage(
   const doc = (
     <html lang={lang}>
       <Head {...componentData} />
-      <body data-slug={slug}>
+      <body data-slug={slug} class="theme-dark mod-windows is-frameless is-hidden-frameless obsidian-app show-inline-title show-ribbon show-view-header highlightr-realistic is-fullscreen is-focused">
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
