@@ -38,6 +38,61 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        <style type="text/css" id="highlightr-styles">
+          .hltr-pink,
+          mark.hltr-pink,
+          .markdown-preview-view mark.hltr-pink{
+          background: #FFB8EBA6;
+          }
+
+          .hltr-red,
+          mark.hltr-red,
+          .markdown-preview-view mark.hltr-red{
+          background: #FF5582A6;
+          }
+
+          .hltr-orange,
+          mark.hltr-orange,
+          .markdown-preview-view mark.hltr-orange{
+          background: #FFB86CA6;
+          }
+
+          .hltr-yellow,
+          mark.hltr-yellow,
+          .markdown-preview-view mark.hltr-yellow{
+          background: #FFF3A3A6;
+          }
+
+          .hltr-green,
+          mark.hltr-green,
+          .markdown-preview-view mark.hltr-green{
+          background: #BBFABBA6;
+          }
+
+          .hltr-cyan,
+          mark.hltr-cyan,
+          .markdown-preview-view mark.hltr-cyan{
+          background: #ABF7F7A6;
+          }
+
+          .hltr-blue,
+          mark.hltr-blue,
+          .markdown-preview-view mark.hltr-blue{
+          background: #ADCCFFA6;
+          }
+
+          .hltr-purple,
+          mark.hltr-purple,
+          .markdown-preview-view mark.hltr-purple{
+          background: #D2B3FFA6;
+          }
+
+          .hltr-grey,
+          mark.hltr-grey,
+          .markdown-preview-view mark.hltr-grey{
+          background: #CACFD9A6;
+          }
+          </style>
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}
