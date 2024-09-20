@@ -236,7 +236,7 @@ details[open] summary.highlight-summary::before {
 
 /*highlightr component*/
 
-@keyframes fade {
+/*@keyframes fade {
   0% {
     opacity: 0;
   }
@@ -249,7 +249,7 @@ details[open] summary.highlight-summary::before {
   100% {
     opacity: 1;
   }
-}
+}*/
 
 .menu.highlighterContainer {
   min-width: 140px;
@@ -263,7 +263,7 @@ details[open] summary.highlight-summary::before {
   overflow-y: auto;
   overflow-x: hidden;
   position: fixed;
-  animation: fade 300ms ease-in-out;
+  /*animation: fade 300ms ease-in-out;*/
   background-color: var(--background-primary);
   box-shadow: 0px 3px 25px rgba(31, 38, 135, 0.1);
   border: 1px solid var(--background-modifier-border);
